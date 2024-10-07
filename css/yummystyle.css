@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inter-100 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+.light-background {
+  background-color: #f2f2f2;
+  --surface-color: #ffffff;
+}
+
+.hero .animated {
+  animation: animated 1s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes animated {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.container .hero-left {
+  font-size: 64px !important;
+}
+
+.container .hero-left-p {
+  font-size: 20px !important;
+  margin: 5px 0 30px 0;
+}
+
+.btn-right {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-right i {
+  padding: 0px 5px;
+}
+
+.btn-right span {
+  color: black;
+}
+
+.btn-right:hover span {
+  color: #BB2D3B !important;
+}
+
+.aaa ul li {
+  position: relative;
+}
+
+.aaa ul li a:before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  background-color: #BB2D3B !important;
+  width: 0%;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.aaa ul li a:hover:before {
+  width: 100%;
+}
+
+
+.aaa ul li:first-child a:before {
+  width: 100%;
+}
+
+.about h2 , .font-46 {
+  font-size: 46px !important;
+}
+
+.content ul{
+  padding: 0;
+}
+
+.content ul li {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+}
+
+.content ul li i{
+  padding-right: 5px;
+}
+
+.about .aaa{
+  padding-bottom: 10px;
+}
+
+.about .img-tbl{
+  margin-top: 22px;
+}
+
+.img-right .btn i{
+  font-size: 64px;
+  background-color: white; 
+  border-radius: 50%;
+}
+
+.whyus .btn{
+  background-color: #e73e3e;
+  border-radius: 20px;
+  color: white;
+}
+.whyus .btn:hover{
+  color: #BB2D3B;
+  background-color: white;
+}
+
+.whyus .container{
+  padding: 60px 0;
+}
+
+
+.whyus .right-card i::before{
+  background: #FCF3F3;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  transition: 0.3s;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.whyus .right-card h4 ,
+.whyus .right-card p{
+ margin-bottom: 35px;
+}
+
+.whyus .right-card i:hover::before{
+  background-color: #BB2D3B;
+  color: #f2f2f2;
+}
+
+.counter{
+  position: relative;
+}
+.counter img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.counter::before{
+  content: "";
+  background-color: rgba(0, 0, 0, 46%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.counter span , .menu-header h3{
+  font-size: 48px;
+}
+.counter h2{
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.card ul li a{
+  color: black !important;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.card ul li a::before{
+  content: "";
+  height: 2px;
+  background-color: grey;
+  bottom: -40px;
+  display: block;
+  position: relative;
+}
+
+.card ul li a:active:before ,.card ul li a:focus::before {
+  background-color: red;
+}
+
+.card ul li:first-child a::before {
+  background-color: red; /* make the first child active by default */
+}
+
+
+.nav-item{
+  padding: 10px;
+  margin: 0 15px;
+}
+
+.csslider1{
+  box-shadow: none !important;
+}
+
+.testimonial{
+  background: #F2F2F2 !important;
+}
+
+
+
